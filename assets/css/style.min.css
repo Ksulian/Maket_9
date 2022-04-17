@@ -38,3 +38,218 @@
     src: url("../fonts/Roboto-Regular.ttf") format("truetype");
     font-weight: 400;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    width: 1920px;
+    margin: 0 auto;
+    font-family: "Comfortaa";
+    font-weight: 700;
+}
+.container{
+    width: 1213px;
+    margin: 0 auto;
+}
+/* main */
+.main{
+    height: 1056px;
+    background: url("../img/photos/BG.png") no-repeat center center / cover;
+}
+/* header */
+.logo{
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.header_wrapper{
+    padding-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.header_nav:hover{
+    text-decoration: underline;
+}
+.header_btn1{
+    width: 132px;
+    height: 39px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+.header_btn1:hover{
+    background-color: white;
+    color: #BB6DF3;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.header_btn2{
+    width: 132px;
+    height: 39px;
+    cursor: pointer;
+    background: rgba(98, 2, 238, 0.0001);
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+.header_btn2:hover{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: white;
+    color: #BB6DF3;
+}
+/* section1 */
+.section1{
+    margin: 165px 0 87px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.main_sibtitle{
+    font-family: 'Montserrat';
+    margin-top: 8px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+    width: 527px;
+    border-bottom: 2px solid #3B668D;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.main_title2{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 156%;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.main_desk{
+    margin-top: 13px;
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.075em;
+    color: #2B4964;
+}
+.main_btn{
+    background: url('../img/photos/Button.svg') no-repeat center center / cover;
+    width: 308px;
+    height: 90px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border: none;
+    transition: 0.5s;
+}
+.main_btn:hover{
+    transform: scale(1.05);
+}
+.main_photo{
+    animation: main_photo 2s infinite;
+    margin-right: -145px;
+}
+@keyframes main_photo{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+/*  */
+.qual_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qual_blocks{
+    margin-left: -125px;
+}
+.qual_photo{
+    margin-left: -325px;
+    transition: 1s;
+}
+.qual_photo:hover{
+    transform: scale(1.05);
+}
+.qual_block{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    width: 600px;   
+}
+.qual_block_title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.qual_block_desk{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B4964;
+}
+.qual_block_text{
+    margin-left: 25px;
+}
