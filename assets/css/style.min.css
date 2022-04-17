@@ -224,10 +224,18 @@ body{
 }
 .qual_photo{
     margin-left: -325px;
-    transition: 1s;
+    animation: qual_photo 2s infinite;
 }
-.qual_photo:hover{
-    transform: scale(1.05);
+@keyframes qual_photo{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1.0);
+    }
 }
 .qual_block{
     display: flex;
@@ -394,4 +402,49 @@ body{
 .become_card:hover .become_card_unvis{
     transition: 1s;
     display: block;
+}
+
+/*  */
+.quan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 280px 0;
+}
+.quan_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1205px;
+    align-items: center;
+}
+.quan_block{
+    display: flex;
+    align-items: center;
+}
+.quan_num{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    color: #425B8C;
+    margin-bottom: 16px;
+}
+.quan_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #718DC2;    
+}
+.quan_text{
+    margin-left: 30px;
+}
+.quan_icon{
+    animation: quan_icon 4s infinite;
+}
+@keyframes quan_icon {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
