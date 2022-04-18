@@ -112,6 +112,7 @@ body{
     color: #BB6DF3;
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
+/* вид кнопки */
 .header_btn2{
     width: 132px;
     height: 39px;
@@ -128,18 +129,21 @@ body{
     transition: 0.3s;
     border-radius: 4px;
 }
+/* свойства кнопки */
 .header_btn2:hover{
     border: 1px solid rgba(0, 0, 0, 0.12);
     background-color: white;
     color: #BB6DF3;
 }
 /* section1 */
+/* расположение секции */
 .section1{
     margin: 165px 0 87px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* шрифт заголовка */
 .main_title{
     font-family: 'Roboto';
     font-weight: 900;
@@ -447,4 +451,93 @@ body{
     100%{
         transform: rotate(0deg);
     }
+}
+
+/*  */
+.footer{
+    background: url("../img/photos/footer_bg.png") no-repeat center center / cover;
+    height: 1086px;
+}
+.footer_wrapper{
+    padding-top: 450px;
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #a784ff;
+    justify-content: space-between;
+}
+.footer_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 70px;
+    color: #FFFFFF;
+}
+.footer_desk{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.footer_link{
+    display: grid;
+}
+.footer_a{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.footer_a:hover{
+    color: #e0c5d9;
+}
+.footer_text{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footer_a2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.footer_a2:hover{
+    color: #e0c5d9;
+}
+.footer_num{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footer_num a{
+    color: #fff;
+}
+.footer_num a:hover{
+    color: #e0c5d9;
+}
+.footer_mail{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footer_mail a{
+    color: #fff;
+}
+.footer_mail a:hover{
+    color: #e0c5d9;
+}
+.footer_cop{
+    margin-top: 65px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
 }
