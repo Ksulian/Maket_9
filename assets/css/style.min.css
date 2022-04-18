@@ -72,7 +72,7 @@ body{
     color: #FFFFFF
 }
 .header_wrapper{
-    padding-top: 65px;
+    padding-top: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,7 +112,6 @@ body{
     color: #BB6DF3;
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
-/* вид кнопки */
 .header_btn2{
     width: 132px;
     height: 39px;
@@ -129,21 +128,18 @@ body{
     transition: 0.3s;
     border-radius: 4px;
 }
-/* свойства кнопки */
 .header_btn2:hover{
     border: 1px solid rgba(0, 0, 0, 0.12);
     background-color: white;
     color: #BB6DF3;
 }
 /* section1 */
-/* расположение секции */
 .section1{
     margin: 165px 0 87px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/* шрифт заголовка */
 .main_title{
     font-family: 'Roboto';
     font-weight: 900;
@@ -540,4 +536,139 @@ body{
     line-height: 27px;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+
+/*  */
+.header2{
+    background: url("../img/photos/contact_header_bg.png") no-repeat center center / cover;
+    height: 300px;
+}
+.main2_wrapper{
+    text-align: center;
+}
+.main2_title{
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    letter-spacing: 0.405em;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.main2_subtitle{
+    font-family: 'Montserrat';
+    margin-bottom: 85px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+iframe{
+    height: 838px;
+    width: 100%;
+}
+
+.drop{
+    background: url("../img/photos/contact_bg2.png") no-repeat center center / cover;
+    height: 974px;
+}
+.drop_wrapper{
+    text-align: center;
+    margin-bottom: 300px;
+}
+.drop_title{
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    margin-bottom: 30px;
+    color: #3B668D;
+}
+.drop_subtitle{
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #79788F;
+}
+.drop_content{
+    display: flex;
+    justify-content: center;
+}
+.drop_input_one{
+    display: flex;
+    width: 800px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.drop_input_text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #3B3F8D;
+}
+.drop_input{
+    padding-left: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    background: #F3F3F3;
+    border-radius: 61px;
+    width: 630px;
+    height: 100px;
+    border: none;
+    color: #3B3F8D;
+}
+.drop_input::placeholder{
+    color: #ADADAD;
+}
+.drop_mes::placeholder{
+    color: #ADADAD;
+    padding-bottom: 200px;
+}
+.drop_mes{
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    line-height: 27px;
+    color: #3B3F8D;
+    padding-left: 47px;
+    background: #F3F3F3;
+    border-radius: 50px;
+    width: 749px;
+    height: 273px;
+}
+.drop_btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 790px;
+    align-items: center;
+}
+.drop_text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ADADAD;
+}
+.drop_btn{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    border: none;
+    width: 250px;
+    height: 80px;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.drop_btn:hover{
+    box-shadow: 0 0 10px #907EFF;
 }
