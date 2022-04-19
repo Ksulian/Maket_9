@@ -553,6 +553,7 @@ body{
     font-weight: 900;
     font-size: 72px;
     line-height: 70px;
+    text-align: center;
     letter-spacing: 0.405em;
     text-transform: uppercase;
     color: #3B668D;
@@ -563,6 +564,7 @@ body{
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
+    text-align: center;
     letter-spacing: 0.905em;
     text-transform: uppercase;
     color: #3B668D;
