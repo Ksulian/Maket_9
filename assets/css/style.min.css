@@ -731,13 +731,14 @@ iframe{
 }
 .ques_ques_intro:hover .answer{
     opacity: 100;
+    display: block;
 }
 .answer{
     transition: 1s;
     background-color: white;
     width: 1300px;
     margin-left: -30px;
-    opacity: 0;
+    display: none;
 }
 .ques_answer{
     font-weight: 400;
@@ -753,6 +754,10 @@ iframe{
 .regist{
     background: url("../img/photos/faq_bg.png") no-repeat;
     height: 1062px;
+}
+.regist2{
+    background: url("../img/photos/faq_bg.png") no-repeat;
+    height: 1162px;
 }
 .regist_inputs_blocks{
     display: flex;
@@ -897,4 +902,134 @@ iframe{
 }
 .login_text:hover{
     text-decoration: underline;
+}
+.profile_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.profile_block{
+    width: 313px;
+    height: 164px;
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+}
+.profile_icon{
+    animation: profile_icon 4s infinite;
+}
+@keyframes profile_icon{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+.type{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.pink{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F36DD4;
+}
+.profile_block_text{
+    margin-left: 20px;
+}
+.regist_block2{
+    display: flex;
+    justify-content: center;
+    margin-top: 117px;
+}
+.regist_input2{
+    background: #F3F3F3;
+    border-radius: 61px;
+    width: 630px;
+    height: 100px;
+    margin-bottom: 18px;
+    padding-left: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #3B3F8D;
+    border: none;
+}
+.regist_input2::placeholder{
+    color: #ADADAD;
+}
+.regist_name_of_input2{
+    font-weight: 700;
+    font-size: 24px;
+    width: 175px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    line-height: 27px;
+    color: #3B3F8D;
+}
+.regist_name_of_input3{
+    font-weight: 700;
+    font-size: 24px;
+    width: 175px;
+    line-height: 27px;
+    margin-bottom: 68px;
+    color: #3B3F8D;
+}
+.profile_text_after_in{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    color: #BB6DF3;
+}
+.profile_checkbox_all{
+    display: flex;
+    justify-content: center;
+}
+.check_text2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    color: #ADADAD;
+}
+.checkbox_che{
+    display: flex;
+}
+.checkbox2{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+.check_btn{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    width: 350px;
+    height: 80px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+.check_btn:hover{
+    box-shadow: 0 0 10px #907EFF;
 }
