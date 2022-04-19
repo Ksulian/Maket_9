@@ -627,11 +627,16 @@ iframe{
 .drop_input::placeholder{
     color: #ADADAD;
 }
+.drop_mes{
+    /* padding: 10px 0 0 20px; */
+}
 .drop_mes::placeholder{
     color: #ADADAD;
-    padding-bottom: 200px;
+    /* margin-top: -200px; */
 }
 .drop_mes{
+    padding-bottom: 200px;
+    padding-top: 20px;
     font-weight: 700;
     font-size: 24px;
     border: none;
@@ -641,7 +646,6 @@ iframe{
     background: #F3F3F3;
     border-radius: 50px;
     width: 749px;
-    height: 273px;
 }
 .drop_btns{
     margin-top: 20px;
