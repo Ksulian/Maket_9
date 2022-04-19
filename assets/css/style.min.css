@@ -744,3 +744,120 @@ iframe{
     padding-top: 30px;
     padding-bottom: 70px;
 }
+
+.regist{
+    background: url("../img/photos/faq_bg.png") no-repeat;
+    height: 1062px;
+}
+.regist_inputs_blocks{
+    display: flex;
+    width: 950px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.regist_block{
+    display: flex;
+    justify-content: center;
+}
+.regist_block_name{
+    margin-right: 45px;
+    text-align: right;
+}
+.regist_name_of_input{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 43px;
+    margin-bottom: 93px;
+    width: 175px;
+    line-height: 27px;
+    color: #3B3F8D;
+}
+.regist_input{
+    background: #F3F3F3;
+    border-radius: 61px;
+    width: 630px;
+    height: 100px;
+    margin-bottom: 18px;
+    padding-left: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #3B3F8D;
+    border: none;
+}
+.regist_input::placeholder{
+    color: #ADADAD;
+}
+.regist_block_prov{
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regist_prov{
+    display: flex;
+}
+.capcha{
+    display: block;
+    width: 260px;
+    height: 100px;
+}
+.renov{
+    margin-top: -61px;
+    background: none;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 20px;
+}
+.renov:hover{
+    transform: rotate(360deg);
+}
+.enter{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #3B3F8D;
+    background: #F3F3F3;
+    border-radius: 50px;
+    width: 286px;
+    height: 100px;
+    padding-left: 50px;
+    border: none;
+}
+.enter::placeholder{
+    color: #ADADAD; 
+}
+.regist_block_down{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.checkbox_name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 55px;
+    color: #ADADAD;
+}
+.regist_btn:hover{
+    box-shadow: 0 0 10px #907EFF;
+}
+.regist_btn{
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    border: none;
+    width: 250.76px;
+    height: 79px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;    
+    text-align: center;
+    color: #FFFFFF;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
