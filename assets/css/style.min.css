@@ -92,10 +92,10 @@ body{
     text-decoration: underline;
 }
 .header_btn1{
-    width: 132px;
-    height: 39px;
+    padding: 10px 16px;
+    margin-right: 35px;
     cursor: pointer;
-    border: none;
+    border: 1px solid transparent;
     background: none;
     font-family: 'Poppins';
     font-weight: 500;
@@ -105,7 +105,7 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     transition: 0.3s;
-    border-radius: 4px;
+    border-radius: 15px;
 }
 .header_btn1:hover{
     background-color: white;
@@ -113,11 +113,13 @@ body{
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
 .header_btn2{
+    
+    padding: 10px 16px;
     width: 132px;
     height: 39px;
     cursor: pointer;
     background: rgba(98, 2, 238, 0.0001);
-    border: none;
+    border: 1px solid transparent;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 13.4237px;
@@ -126,7 +128,7 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     transition: 0.3s;
-    border-radius: 4px;
+    border-radius: 15px;
 }
 .header_btn2:hover{
     border: 1px solid rgba(0, 0, 0, 0.12);
@@ -161,6 +163,9 @@ body{
     letter-spacing: 0.905em;
     text-transform: uppercase;
     color: #3B668D;
+}
+.main_tit{
+    opacity: 0;
 }
 .main_title2{
     font-family: 'Roboto';
@@ -785,6 +790,9 @@ iframe{
     color: #3B3F8D;
     border: none;
 }
+.regist_wrapper{
+    text-align: center;
+}
 .regist_input::placeholder{
     color: #ADADAD;
 }
@@ -860,4 +868,33 @@ iframe{
 .checkbox{
     height: 20px;
     width: 20px;
+}
+.login_btns{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.login_btn{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    width: 350px;
+    height: 80px;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.login_btn:hover{
+    box-shadow: 0 0 10px #907EFF;
+}
+.login_text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ADADAD;
+}
+.login_text:hover{
+    text-decoration: underline;
 }
